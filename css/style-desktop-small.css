@@ -1,0 +1,24 @@
+@media screen and (max-width: 1320px) {
+#slide1, #slide2, #slide3{
+	margin: 0;
+	background-size: auto 100%;
+	background-position: right 50%;
+	background-repeat: no-repeat;
+}
+.slide-img{
+	width: 80%;
+	margin: -5% 0 -5% -2%;
+}
+.f-10pt{
+	font-size: 8t;
+}
+.f-12pt{
+	font-size: 10t;
+}
+.f-14pt{
+	font-size: 12pt;
+}
+.f-16pt{
+	font-size: 12pt;
+}
+}

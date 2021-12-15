@@ -1,0 +1,389 @@
+body, html{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+div, ul, li{
+	padding: 0;
+	margin:0;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+a{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+
+.prime-font, h1, h2{
+	font-family: 'Paytone One', sans-serif;
+}
+.seccond-font, a, p{
+	font-family: 'Raleway', sans-serif;
+}
+.f-10pt{
+	font-size: 10pt;
+}
+.f-12pt{
+	font-size: 12pt;
+}
+.f-14pt{
+	font-size: 14pt;
+}
+.f-16pt{
+	font-size: 16pt;
+}
+.f-18pt{
+	font-size: 18pt;
+}
+.f-24pt{
+	font-size: 24pt;
+}
+.f-30pt{
+	font-size: 30pt;
+}
+.bg-304d73{
+	background-color: #304d73;
+}
+.text-304d73{
+	color: #304d73;
+}
+.pointer{
+	 cursor: pointer;
+}
+.shadow-overlay{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	position: absolute;
+	transition: 0.3s ease;
+}
+.brighten-overlay{
+	background-color: rgba(255,255,255,0.6);
+}
+.scale{
+	transform: scale(1.2);
+	z-index: 99;
+}
+.drop-shadow{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+	0 10px 10px rgba(0,0,0,0.22);
+}
+.ipad-show{
+	display: none!important;
+}
+
+/*custom shape*/
+.triangle{
+	width: 0;
+  height: 0;
+}
+.rectangle{
+	width: 1500px;
+  height: 200px;
+  top: 300px;
+  right: -680px;
+  transform: rotate(45deg);
+}
+.custom-shape{
+	position: absolute;
+	opacity: 0.1;
+	z-index: 1;
+}
+.bottom-left{
+  bottom: 0;
+  left: 0;
+}
+.top-right{
+  top: 0;
+  right: 0;
+}
+/*naviagtion bar*/
+#hideNav, #pw-change, .fa-chevron-right{
+	transition: 0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: rgba(255,255,255,0.5);
+}
+.rotate-90{
+	transform: rotate(90deg);
+}
+
+/*Home page header section*/
+#home-header{
+	height: 90%;
+	transition: 0.3s ease;
+}
+#slide1{
+		background: url(../01_homePage/assets/slide1-bg.jpg);
+}
+#slide2{
+		background: url(../01_homePage/assets/slide2-bg.jpg);
+}
+#slide3{
+		background: url(../01_homePage/assets/slide3-bg.jpg);
+}
+#slide1, #slide2, #slide3{
+	margin: 0;
+	background-size: auto 100%;
+	background-position: 140% 50%;
+	background-repeat: no-repeat;
+}
+.slide-img{
+	width: 90%;
+	margin: -5% 0 -5% -2%;
+}
+.left-container{
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(255,255,255,0) 100%);
+}
+.carousel-indicators{
+	bottom: -60px;
+	position: relative;
+}
+.carousel-indicators li{
+	padding: 2% 0;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+.carousel-indicators .active{
+		background-color: #304d73;
+	
+}
+.carousel-indicators .active p{
+		color: white;
+}
+
+/*student resource*/
+#student-resource{
+	overflow: hidden;
+}
+
+
+/*teacher resource*/
+#video-container, #bg-video{
+	height: 100%;
+	z-index: -1;
+}
+
+.bullet-list{
+	padding-left: 1.5rem;
+}
+.bullet-list li{
+	list-style-type: circle;
+	padding: 5px;
+}
+
+
+/*tutoring*/
+#flipbox-init{
+  position: relative;
+}
+.flip-box {
+  background-color: transparent;
+  height: 110px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  box-shadow: 1em 1em 2em rgba(0,0,0,.2);
+  width: 98%;
+  height: 98%;
+}
+
+.flip-box-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+.fliped {
+  transform: rotateY(180deg);
+}
+
+/*footer*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #222; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  z-index: 10000;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*social media*/
+#socialContainer{
+	right: 0;
+	top: 50%;
+	z-index: 1000;
+}
+#socialIcon{
+	right: 0;
+	transition: 0.3s ease;
+}
+#socialIcon a{
+	transition: 0.3s ease;
+}
+#socialIcon a:hover{
+	transform: scale(1.2);
+}
+.list-social-med{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+
+.list-social-med span{
+	color: white;
+	font-size: 1.4em;
+}
+.social-color-1{
+	background-color: #3b5998;
+}
+.social-color-2{
+	background-color: #c41200
+}
+.social-color-3{
+	background-color:  #0e76a8;
+}
+.social-color-4{
+	background-color: #833AB4;
+}
+
+/*pricing page*/
+.text-hidden{
+	color: rgba(0,0,0,0);
+}
+.features-list, .features-basic{
+	padding: 0;
+}
+.features-list div{
+	background-color: #ddd;
+	padding-left: 12px;
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+}
+.features-basic div{
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.features-basic .prime-font{
+	background-color: #ddd;
+	border: none;
+}
+.features-list .prime-font{
+	background-color: white!important;
+	border: none;
+}
+.btn-outline-304d73, .btn-outline-304d73:hover{
+	background-color: transparent;
+	color: #304d73;
+	border: 1px solid #304d73;
+}
+.btn-304d73, .btn-304d73:hover{
+	background-color: #304d73;
+	color: white;
+	border: 1px solid #304d73;
+}
+#price-chart-teacher{
+	overflow: auto;
+}
+
+
+
+
+/*about page*/
+#about-banner{
+	background-image: url(../assets/teacher_resources.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+
+}
+
+
+
+/*user page*/
+.link-cus{
+	color: white;
+	transition: 0.1s ease;
+	text-decoration: underline;
+}
+.link-cus:hover{
+	color: #eee;
+}
+.tooltip-cus{
+	position: relative;
+}
+.tooltip-cus .tooltip-text{
+	opacity: 0;
+	position: absolute;
+	background-color: #222;
+	padding: 8px;
+	left: 450px;
+	top: -10px;
+	border-radius: 25px;
+	width: 120px;
+	text-align: center;
+}
+.tooltip-cus:hover .tooltip-text{
+	opacity: 1;
+}
+.cardInput, .notice{
+	position: fixed;
+	display: none;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+@media screen and (min-width: 1380px) {
+	#video-container, #bg-video{
+		width: 100%;
+		height: auto;
+	}
+	.f-16pt{
+		font-size: 20pt;
+	}
+}

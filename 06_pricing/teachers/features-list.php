@@ -1,0 +1,44 @@
+<div class="col p-0">
+		<div class="py-2" style="height: 180px;"></div>
+		<div class="features-list">
+		<div class="py-2 prime-font">Device and Browser</div>
+		<div class="py-2">iPad</div>
+		<div class="py-2">Desktop/Laptop</div>
+		<div class="py-2 prime-font">Editing Tools</div>
+		<div class="py-2">Pen</div>
+		<div class="py-2">Eraser</div>
+		<div class="py-2">highlighter</div>
+		<div class="py-2">Textbox</div>
+		<div class="py-2">Insert Shape</div>
+		<div class="py-2">Formula Page</div>
+		<div class="py-2">Graphing Calculator</div>
+		<div class="py-2">Scientific Calculator</div>
+		<div class="py-2 prime-font">Resources</div>
+		<div class="py-2">Math 10</div>
+		<div class="py-2">Math 11</div>
+		<div class="py-2">Math 12</div>
+		<div class="py-2">Physics 11</div>
+		<div class="py-2">Physics 12</div>
+		<div class="py-2">Chemistry 11</div>
+		<div class="py-2">Chemistry 12</div>
+		<div class="py-2">Math 10 (Solution)</div>
+		<div class="py-2">Math 11 (Solution)</div>
+		<div class="py-2">Math 12 (Solution)</div>
+		<div class="py-2">Physics 11 (Solution)</div>
+		<div class="py-2">Physics 12 (Solution)</div>
+		<div class="py-2">Chemistry 11 (Solution)</div>
+		<div class="py-2">Chemistry 12 (Solution)</div>
+		<div class="py-2">Student Upload</div>
+		<div class="py-2">Teacher Upload</div>
+		<div class="py-2">Notes Folder</div>
+		<div class="py-2">Associated Note</div>
+		<div class="py-2 prime-font">School Management</div>
+		<div class="py-2">Create Teachers</div>
+		<div class="py-2">Create Students</div>
+		<div class="py-2">Create Classes</div>
+		<div class="py-2">Banner Change Option</div>
+		<div class="py-2">Requested Resources</div>
+		<div class="py-2 prime-font">Communication Tool</div>
+		<div class="py-2">Chat</div>
+		</div>
+</div>

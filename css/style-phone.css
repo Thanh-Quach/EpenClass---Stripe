@@ -1,0 +1,43 @@
+@media screen and (max-width: 480px) {
+	#home-header{
+		height: 80%;
+	}
+	.slide-img{
+		width: 120%;
+		margin-left: -7%;
+		margin-bottom: 5%;
+	}
+	.force-0{
+		right: 0!important;
+	}
+	.force-60{
+		right: -60px!important;
+	}
+	.force-margin-top{
+		margin-top: 0!important;
+	}
+	.f-16pt{
+		font-size: 12pt;
+	}
+	.f-18pt{
+		font-size: 14pt;
+	}
+	.f-24pt{
+			font-size: 30pt;
+	}
+	#teacher-resource{
+	padding: 1rem;
+	}
+	.ipad-show p {
+		text-align: center;
+	}
+	.carousel-indicators li{
+	padding: 2% 0;
+	height: 80px;
+	width: 100%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+}

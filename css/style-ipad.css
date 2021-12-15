@@ -1,0 +1,38 @@
+@media screen and (max-width: 990px) {
+#home-header{
+	height: 70%;
+}
+.carousel-indicators{
+	bottom: -40px;
+	width: 100%;
+	margin: 0;
+}
+#slide1, #slide2, #slide3{
+	background: white;
+}
+.slide-img{
+	width: 100%;
+	margin: -5% auto;
+}
+.f-16pt{
+	font-size: 14pt;
+}
+.f-18pt, .f-24pt{
+		font-size: 18pt;
+}
+#teacher-resource{
+	padding: 0;
+}
+.desktop-show{
+	display: none!important;
+}
+.ipad-show{
+	display: flex!important;
+}
+.ipad-show p {
+	text-align: right;
+}
+video{
+	 margin-top: 0;
+}
+}
